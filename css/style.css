@@ -456,16 +456,35 @@ header .fa-bars {
     text-decoration-line: none;
     border-radius: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #free-try .card div:last-child {
     line-height: 1.3em;
+    font-size: 14px;
 }
 
 #free-try .card i {
     font-size: 5px;
     vertical-align: middle;
 }
+
+/* fondo della pagina */
+footer {
+    padding: 50px 0;
+    background-color: #333333;
+    font-size: 14px;
+}
+
+footer .card {
+    text-align: center;
+}
+
+footer .card p {
+    line-height: 1em;
+    margin-bottom: 70px;
+}
+
+
 
 
