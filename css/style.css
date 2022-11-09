@@ -17,6 +17,10 @@
     flex-direction: row;
 }
 
+.font-title-sm {
+    font-size: 20px;
+}
+
 .color-white {
     color: white;
 }
@@ -97,6 +101,7 @@ header .fa-bars {
 
 #introduction-app {
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 #introduction-app .row {
@@ -105,18 +110,110 @@ header .fa-bars {
 
 #introduction-app .col-lg, #introduction-app .col-md{
     width: 100%;
-    height: 500px;
     background-color: #b5ddff;
-    padding: 0 20px;
-    margin: 20px 0;
+    padding: 30px 20px;
+    margin: 15px 0;
+    border-radius: 20px;
 }
 
-#introduction-app .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* colonna larga */
+#introduction-app .card-img {
+    text-align: center;
 }
 
 #introduction-app img {
-    width: 200px;
+    width: 250px;
+    margin-bottom: -34px;
 }
+
+#introduction-app h6 {
+    color: #0084fd;
+    margin-bottom: 30px;
+}
+
+#introduction-app p {
+    line-height: 2em;
+    color: #5a6e7f;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#introduction-app .description-img p {
+    margin-bottom: 30px;
+}
+
+#introduction-app .description-img a {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration-line: none;
+    border-radius: 20px;
+    background-color: #0084fd;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* colonna media */
+#introduction-app .card-features {
+    text-align: center;
+}
+
+#introduction-app .card-features i {
+    font-size: 80px;
+    color: #0084fd;
+    margin-bottom: 30px;
+}
+
+#introduction-app .card-features h6 {
+    margin-bottom: 30px;
+}
+
+/* pianificazione */
+#planning .container {
+    background-color: #9593e6;
+    padding: 50px 0;
+}
+
+#planning .row {
+    flex-wrap: wrap;
+}
+
+#planning .col-md{
+    width: 100%;
+    padding: 0 20px;
+}
+
+#planning .col-md:first-child {
+    margin-bottom: 30px;
+}
+
+#planning .col-md img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#planning .col-md h5 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#planning .col-md p {
+    line-height: 2em;
+}
+
+#planning .col-md .card-development {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#planning .card-development p {
+    margin-bottom: 30px;
+}
+
+#planning .card-development i {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #9593e6;
+}
+
