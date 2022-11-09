@@ -21,8 +21,16 @@
     font-size: 20px;
 }
 
+.font-title-xs {
+    font-size: 17px;
+}
+
 .color-white {
     color: white;
+}
+
+p {
+    line-height: 2em;
 }
 
 /* Testa della pagina */
@@ -132,7 +140,6 @@ header .fa-bars {
 }
 
 #introduction-app p {
-    line-height: 2em;
     color: #5a6e7f;
     font-weight: 600;
     font-size: 14px;
@@ -166,6 +173,7 @@ header .fa-bars {
 #introduction-app .card-features h6 {
     margin-bottom: 30px;
 }
+/* fine introduzione app */
 
 /* pianificazione */
 #planning .container {
@@ -197,7 +205,7 @@ header .fa-bars {
 }
 
 #planning .col-md p {
-    line-height: 2em;
+    font-size: 14px;
 }
 
 #planning .col-md .card-development {
@@ -209,6 +217,7 @@ header .fa-bars {
 
 #planning .card-development p {
     margin-bottom: 30px;
+    font-style: italic;
 }
 
 #planning .card-development i {
@@ -216,4 +225,68 @@ header .fa-bars {
     border-radius: 50%;
     background-color: #9593e6;
 }
+
+/* testimonials */
+#testimonials {
+    margin-top: 50px;
+}
+
+#testimonials .row {
+    flex-direction: column;
+}
+
+#testimonials .col-xl:first-child {
+    background-color: white;
+    padding: 0;
+}
+
+#testimonials .col-xl {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #9792e4;
+    border-radius: 30px;
+}
+
+#testimonials .card-title {
+    text-align: center;
+}
+
+#testimonials .card-title div {
+    margin-bottom: 30px;
+}
+
+#testimonials .card-title h5 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#testimonials .card-profile {
+    text-align: center;
+}
+
+#testimonials .card-profile .img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url("../img/testimonial1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-bottom: 20px;
+}
+
+#testimonials .card-profile .second-img {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+#testimonials .card-profile .third-img {
+    background-image: url(../img/testimonial3.jpg);
+}
+
+#testimonials .card-profile .fa-quote-right, #testimonials .card-profile .fa-quote-left {
+    font-size: 20px;
+}
+
 
