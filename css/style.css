@@ -400,7 +400,7 @@ header .fa-bars {
 #about-us .card-right h4 {
     font-size: 30px;
     margin-bottom: 20px;
-    line-height: 1.3;
+    line-height: 1.3em;
 }
 
 #about-us .card-right a {
@@ -431,4 +431,41 @@ header .fa-bars {
 
 #free-try .card div:first-child {
     color: #cbc9f1;
+    margin-bottom: 20px;
 }
+
+#free-try .card h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#free-try .card h2 {
+    font-size: 50px;
+    color: #fdc15f;
+    margin-bottom: 30px;
+}
+
+#free-try .card p {
+    margin-bottom: 20px;
+}
+
+#free-try .card > a {
+    display: inline-block;
+    padding: 20px 70px;
+    background-color: white;
+    text-decoration-line: none;
+    border-radius: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#free-try .card div:last-child {
+    line-height: 1.3em;
+}
+
+#free-try .card i {
+    font-size: 5px;
+    vertical-align: middle;
+}
+
+
