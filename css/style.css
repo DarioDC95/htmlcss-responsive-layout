@@ -8,9 +8,81 @@
 
 header {
     background-color: #0084fd;
+    height: 80px;
+    position: fixed;
+    width: 100%;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 25px;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+}
+
+.color-white {
+    color: white;
+}
+
+header .container {
+    height: 100%;
+    padding-right: 0;
+}
+
+header .row {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .col-md {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+header .col-right {
+    justify-content: flex-end;
+}
+
+header .card-dropdown {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 25px;
+}
+
+header .card-dropdown:hover .dropdown-content {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+header .dropdown-content {
+    position: absolute;
+    top: 100%;
+    right: -5%;
+    background-color: #0084fd;
+    list-style-type: none;
+    opacity: 0;
+    pointer-events: none;
+}
+
+header .dropdown-content a {
+    text-decoration-line: none;
+    display: block;
+    padding: 5px 10px;
+}
+
+header .dropdown-content .button-link {
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+header .fa-bars {
+    font-size: 25px;
 }
