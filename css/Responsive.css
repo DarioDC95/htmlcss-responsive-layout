@@ -1,6 +1,6 @@
 /* Mobile First to Table*/
 /* First Section */
-@media screen and (min-width: 381px) {
+@media screen and (min-width: 768px) {
     
     /* introduzione */
     #introduction-app .row {
@@ -35,8 +35,11 @@
     }
 
     #testimonials .card-profile .col-int-left {
-        width: 250px;
         margin-right: 40px;
+    }
+
+    #testimonials .card-profile .img, #testimonials .card-profile .second-img, #testimonials .card-profile .third-img {
+        margin-bottom: 0px;
     }
 
     /* Benefits */
@@ -53,7 +56,11 @@
         flex-direction: row;
     }
 
+    #about-us .col-lg {
+        margin-right: 20px;
+    }
+
     #about-us .col-md {
-        width: 400px;
+        width: 30%;
     }
 }
