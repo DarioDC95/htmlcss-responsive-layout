@@ -79,8 +79,12 @@
         align-items: center;
     }
 
+    header .card-dropdown:hover .dropdown-content {
+        transform: none;
+    }
+
     header .dropdown-content li {
-        margin: 0 20px;
+        margin: 0 10px;
     }
 
     header .dropdown-content li:last-child {
