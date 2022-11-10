@@ -1,6 +1,6 @@
 /* Mobile First to Table*/
 /* First Section */
-@media screen and (min-width: 381px) and (max-width: 768px) {
+@media screen and (min-width: 381px) {
     
     /* introduzione */
     #introduction-app .row {
@@ -36,7 +36,7 @@
 
     #testimonials .card-profile .col-int-left {
         width: 250px;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 
     /* Benefits */
