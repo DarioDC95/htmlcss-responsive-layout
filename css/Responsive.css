@@ -1,0 +1,41 @@
+/* Mobile First */
+/* First Section */
+@media screen and (min-width: 381px) and (max-width: 768px) {
+    
+    /* introduzione */
+    #introduction-app .row {
+        justify-content: space-between;
+    }
+
+    #introduction-app .col-lg {
+        width: calc(((100% - 60px) / 3) * 2 + 30px);
+    }
+
+    #introduction-app .col-md {
+        width: calc((100% - 60px) / 3);
+    }
+
+    #introduction-app .card-img {
+        text-align: left;
+    }
+
+    /* pianificazione */
+    #planning .col-md:first-child h5 {
+        font-size: 50px;
+    }
+
+    /* testimonials */
+    #testimonials .row-int {
+        display: flex;
+        align-items: center;
+    }
+
+    #testimonials .card-profile {
+        text-align: left;
+    }
+
+    #testimonials .card-profile .col-int-left {
+        width: 250px;
+        margin-right: 20px;
+    }
+}
