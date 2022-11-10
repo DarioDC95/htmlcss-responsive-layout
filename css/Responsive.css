@@ -1,5 +1,4 @@
 /* Mobile First to Table*/
-/* First Section */
 @media screen and (min-width: 768px) {
     
     /* introduzione */
@@ -64,3 +63,85 @@
         width: 300px;
     }
 }
+
+/* Mobile First to Desktop*/
+
+@media screen and (min-width: 992px) {
+    /* header */
+    header .card-dropdown .hamburger {
+        display: none;
+    }
+
+    header .dropdown-content {
+        position: static;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    header .dropdown-content li {
+        margin: 0 20px;
+    }
+
+    header .dropdown-content li:last-child {
+        margin-right: 0px;
+    }
+
+    /* introduzione app */
+    #introduction-app .row-int {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #introduction-app .col-md-int {
+        width: 50%;
+    }
+
+    #introduction-app .col-md-int:last-child {
+        padding-left: 50px;
+        transform: translateY(54px);
+    }
+
+    /* planning */
+    #planning .row {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    #planning .col-md{
+        width: 40%;
+    }
+
+    #planning .col-md:last-child img {
+        width: 65%;
+        margin-bottom: 20px;
+    }
+
+    #planning .col-md:first-child img {
+        margin-bottom: 100px;
+    }
+    
+    #planning .col-md:first-child h5 {
+        font-size: 30px;
+    }
+
+    /* Benefits */
+    #benefits .col-md {
+        width: calc((100% - 60px) / 3);
+    }
+}
+
+/* solo col-md-int con img nell'introduzione */
+@media screen and (min-width: 992px) and (max-width: 1030px) {
+    #introduction-app .col-md-int:last-child {
+        transform: translateY(110px);
+    }
+}
+
+@media screen and (min-width: 1031px) and (max-width: 1144px) {
+    #introduction-app .col-md-int:last-child {
+        transform: translateY(82px);
+    }
+}
+/* fine parte col-md-int img */
