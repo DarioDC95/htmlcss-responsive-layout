@@ -130,6 +130,11 @@
     #benefits .col-md {
         width: calc((100% - 60px) / 3);
     }
+
+    /* Free-try */
+    #free-try .card h2 {
+        font-size: 60px;
+    }
 }
 
 /* solo col-md-int con img nell'introduzione */
