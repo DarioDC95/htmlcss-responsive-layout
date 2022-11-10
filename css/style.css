@@ -82,12 +82,14 @@ header .card-dropdown .hamburger {
 
 header .card-dropdown:hover .dropdown-content {
     opacity: 1;
+    transform: translateY(5px);
+    transition: opacity 0.3s 0.1s, transform 0.3s 0.1s;
     pointer-events: auto;
 }
 
 header .dropdown-content {
     position: absolute;
-    top: 100%;
+    top: 90%;
     right: -5%;
     background-color: #0084fd;
     list-style-type: none;
