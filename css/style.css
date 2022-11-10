@@ -126,6 +126,7 @@ header .dropdown-content .button-link {
     border-radius: 20px;
     background-color: white;
     padding: 10px 15px;
+    margin-top: 20px;
 }
 
 header .dropdown-content .button-link:hover {
@@ -272,9 +273,19 @@ header .fa-bars {
 }
 
 #planning .card-development i {
-    padding: 20px;
+    padding: 20px 22px;
     border-radius: 50%;
     background-color: #9593e6;
+}
+
+#planning .card-development i:hover {
+    background-color: #673ab77a;
+    color: blue;
+}
+
+#planning .card-development i:active {
+    background-color: #673ab7c2;
+    color: yellow;
 }
 
 /* testimonials */

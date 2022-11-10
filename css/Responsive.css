@@ -93,6 +93,10 @@
         margin-right: 0px;
     }
 
+    header .dropdown-content .button-link {
+        margin: 0;
+    }
+
     /* introduzione app */
     #introduction-app .row-int {
         display: flex;
