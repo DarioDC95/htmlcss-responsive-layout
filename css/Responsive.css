@@ -47,4 +47,13 @@
     #benefits .col-md {
         width: calc((100% - 30px) / 2);
     }
+
+    /* About Us */
+    #about-us .row {
+        flex-direction: row;
+    }
+
+    #about-us .col-md {
+        width: 400px;
+    }
 }
