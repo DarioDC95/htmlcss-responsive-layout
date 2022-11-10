@@ -398,7 +398,7 @@ header .fa-bars {
 }
 
 #about-us .card-right h4 {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 20px;
     line-height: 1.3em;
 }
@@ -419,6 +419,10 @@ header .fa-bars {
 #free-try {
     padding: 50px 0;
     background-color: #9792e4;
+}
+
+#free-try .container {
+    max-width: 565px;
 }
 
 #free-try .col-xl {
@@ -470,6 +474,10 @@ header .fa-bars {
 }
 
 /* fondo della pagina */
+footer .container {
+    max-width: 450px;
+}
+
 footer {
     padding: 50px 0;
     background-color: #333333;
