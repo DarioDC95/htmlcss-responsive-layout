@@ -95,6 +95,12 @@ header .dropdown-content {
     list-style-type: none;
     opacity: 0;
     pointer-events: none;
+    width: 200px;
+    padding: 20px 10px;
+}
+
+header .dropdown-content li {
+    margin-bottom: 5px;
 }
 
 header .dropdown-content a {
@@ -103,10 +109,33 @@ header .dropdown-content a {
     padding: 10px 15px;
 }
 
+header .dropdown-content a:hover {
+    background-color: #ffffff4d;
+}
+
+header .dropdown-content a:active {
+    background-color: #ffffff8f;
+}
+
+header .dropdown-content li:last-child {
+    border-radius: 20px;
+}
+
 header .dropdown-content .button-link {
+    display: inline-block;
     border-radius: 20px;
     background-color: white;
     padding: 10px 15px;
+}
+
+header .dropdown-content .button-link:hover {
+    background-color: #9593e6;
+    color: #fdc15f;
+}
+
+header .dropdown-content .button-link:active {
+    background-color: #9493e6c2;
+    color: blue;
 }
 
 header .fa-bars {
@@ -167,6 +196,18 @@ header .fa-bars {
     background-color: #0084fd;
     font-weight: 600;
     margin-bottom: 30px;
+}
+
+#introduction-app .description-img a:hover {
+    background-color: #4c44c241;
+}
+
+#introduction-app .description-img a:active {
+    background-color: #4c44c296;
+}
+
+#introduction-app .description-img .fa-apple {
+    margin-right: 5px;
 }
 
 /* colonna media */
@@ -364,6 +405,14 @@ header .fa-bars {
     background-color: #9792e4;
 }
 
+#benefits a:hover {
+    background-color: #673ab77a;
+}
+
+#benefits a:active {
+    background-color: #673ab7c2;
+}
+
 /* About Us */
 #about-us {
     padding-top: 50px;
@@ -417,6 +466,14 @@ header .fa-bars {
     border-radius: 20px;
 }
 
+#about-us .card-right a:hover {
+    background-color: #673ab77a;
+}
+
+#about-us .card-right a:active {
+    background-color: #673ab7c2;
+}
+
 #about-us .card-right .fa-linkedin {
     margin-right: 10px;
 }
@@ -467,6 +524,16 @@ header .fa-bars {
     border-radius: 40px;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+#free-try .card > a:hover {
+    background-color: #93e6d173;
+    color: #fdc15f;
+}
+
+#free-try .card > a:active {
+    background-color: #3f4ab52e;
+    color: blue;
 }
 
 #free-try .card div:last-child {
