@@ -99,9 +99,14 @@
     }
 
     /* introduzione app */
+    #introduction-app .col-lg .card {
+        height: 100%;
+    }
+
     #introduction-app .row-int {
         display: flex;
         flex-direction: row;
+        height: 100%;
     }
 
     #introduction-app .col-md-int {
@@ -110,7 +115,8 @@
 
     #introduction-app .col-md-int:last-child {
         padding-left: 50px;
-        transform: translateY(54px);
+        display: flex;
+        align-items: flex-end;
     }
 
     /* planning */
@@ -147,17 +153,3 @@
         font-size: 60px;
     }
 }
-
-/* solo col-md-int con img nell'introduzione */
-@media screen and (min-width: 992px) and (max-width: 1030px) {
-    #introduction-app .col-md-int:last-child {
-        transform: translateY(110px);
-    }
-}
-
-@media screen and (min-width: 1031px) and (max-width: 1144px) {
-    #introduction-app .col-md-int:last-child {
-        transform: translateY(82px);
-    }
-}
-/* fine parte col-md-int img */
