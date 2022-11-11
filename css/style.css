@@ -163,6 +163,7 @@ header .fa-bars {
     padding: 30px 20px;
     margin: 15px 0;
     border-radius: 20px;
+    padding-bottom: 0;
 }
 
 /* colonna larga */
@@ -172,7 +173,9 @@ header .fa-bars {
 
 #introduction-app img {
     width: 250px;
-    margin-bottom: -34px;
+    margin-bottom: 0;
+    /* se all'immagine si da display: block si elimina il piccolo sapzio che rimane tra il fondo del contenitore in cui dispone. */
+    display: block;
 }
 
 #introduction-app h6 {
@@ -184,6 +187,7 @@ header .fa-bars {
     color: #5a6e7f;
     font-weight: 600;
     font-size: 14px;
+    margin-bottom: 30px;
 }
 
 #introduction-app .description-img p {

@@ -27,6 +27,7 @@
     #testimonials .row-int {
         display: flex;
         align-items: center;
+        margin-bottom: 10px;
     }
 
     #testimonials .card-profile {
