@@ -78,6 +78,7 @@ header .card-dropdown .hamburger {
     height: 100%;
     display: flex;
     align-items: center;
+    margin-right: -25px;
 }
 
 header .card-dropdown:hover .dropdown-content {
